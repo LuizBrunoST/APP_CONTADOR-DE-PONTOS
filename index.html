@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contador de Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/templete.css">
+        <script src="js/logica.js"></script>
+    </head>
+<body>
+    <div class="score-counter">
+
+        <div id="player-data">
+
+            <input type="text" id="p1" placeholder="Jogador ou Grupo1" required><br>
+            <input type="text" id="p2" placeholder="Jogador ou Grupo2" required><br>
+            <button id="start" onclick="startGame()">Iniciar</button>    
+
+        </div>
+
+
+        <div id="score">    
+            <select id="maxscore">
+
+            <option value="">Definir pontuação vencedora</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+
+            </select><br>
+            <p id="inc1">0</p>
+            <span id="to">:</span>
+            <p id="inc2">0</p><br>
+
+
+            <input type="button" id="Player1" onclick="player1()" value="player1"></button>
+            <input type="button" id="Player2" onclick="player2()" value="player2"></button>
+            <button id="Reset" onclick="Reset()">Resetar</button>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p class="footer-text">LUMATECH | SCRIPT TUTORIAIS | Luiz Bruno | &copy; Direitos Reservados</p>
+    </div>
+</body>
+</html>

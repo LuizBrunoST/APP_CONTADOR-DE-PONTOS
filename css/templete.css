@@ -1,0 +1,111 @@
+body
+{
+    background-color:#010248 ;
+}
+.score-counter
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#player-data
+{
+    margin-top: 40%;
+    
+}
+#p1,#p2 , #start
+{
+
+    width: 200px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border:0px;
+    border-radius:3px;
+    outline:none;
+}
+#p1
+{
+    margin: 5%;
+}
+#p2
+{
+    margin: 5%;
+}
+#start 
+{
+    margin-left: 29%;
+    margin-top: 10%;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #040f2e;
+    color: white;
+    outline:none;
+    
+}
+#score
+{
+    margin-top: 15%;
+    display:none;
+}
+#maxscore
+{
+    margin-left: 17%;
+    padding: 15px;
+    color: white;
+    width: 200px;
+    border: 0;
+    background-color: #040f2e;
+    text-align:center ;
+    outline:none;
+}
+#inc1,#inc2,#to
+{
+    font-size: 40px;
+    font-style:bold;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border:0px;
+}
+#to
+{
+    background-color: transparent;
+    color: black;
+}
+#Player1 , #Player2 ,#Reset
+{
+    background-color: #040f2e;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: 0px;
+    outline:none;
+}
+#Player1
+{
+margin-top: -10%;
+margin-left: -1%;
+}
+#Player2
+{
+margin-left: 31%;
+}
+#Reset
+{
+    margin-top: 10%;
+    margin-left: 30%;
+    background-color: black;
+    
+}
+.footer{
+    position:absolute;
+    bottom:0;
+}
+.footer-text{
+    font-size:10px;
+    color:#fff;
+    text-align:center;
+}
